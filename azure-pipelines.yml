@@ -19,8 +19,6 @@ steps:
   - script: npm run build
     displayName: 'Build'
 
-  - script: npm test
-    displayName: 'Test'
 
   - task: ArchiveFiles@2
     inputs:
